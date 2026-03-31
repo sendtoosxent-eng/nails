@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed": "#ffdada",
+              "error": "#ba1a1a",
+              "on-error": "#ffffff",
+              "primary-fixed-dim": "#edbabb",
+              "on-tertiary-container": "#5a4000",
+              "surface-variant": "#e4e2e0",
+              "tertiary-fixed": "#ffdea5",
+              "on-surface-variant": "#514443",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-container": "#d2ac64",
+              "on-secondary-fixed": "#211a15",
+              "outline-variant": "#d5c2c2",
+              "surface": "#fbf9f7",
+              "tertiary-fixed-dim": "#e9c176",
+              "surface-container": "#efedec",
+              "on-background": "#1b1c1b",
+              "background": "#fbf9f7",
+              "on-primary-fixed-variant": "#613d3e",
+              "on-secondary-fixed-variant": "#4e453f",
+              "on-primary-container": "#5f3b3c",
+              "on-secondary": "#ffffff",
+              "secondary-container": "#efe0d8",
+              "on-surface": "#1b1c1b",
+              "surface-tint": "#7c5455",
+              "on-secondary-container": "#6d625c",
+              "primary-container": "#d7a6a7",
+              "on-tertiary": "#ffffff",
+              "outline": "#837473",
+              "secondary-fixed": "#efe0d8",
+              "on-primary-fixed": "#2f1315",
+              "secondary": "#675c56",
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed": "#261900",
+              "on-primary": "#ffffff",
+              "primary": "#7c5455",
+              "surface-dim": "#dbdad8",
+              "surface-container-high": "#eae8e6",
+              "inverse-surface": "#30302f",
+              "on-tertiary-fixed-variant": "#5d4201",
+              "surface-bright": "#fbf9f7",
+              "inverse-primary": "#edbabb",
+              "inverse-on-surface": "#f2f0ee",
+              "surface-container-low": "#f5f3f1",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#d2c4bc",
+              "surface-container-highest": "#e4e2e0",
+              "tertiary": "#775a19"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-[#fbf9f7]/80 backdrop-blur-xl font-['Plus_Jakarta_Sans'] font-bold tracking-widest text-sm docked full-width top-0 sticky z-50 shadow-[0_8px_32px_rgba(27,28,27,0.04)]">
+<div class="flex justify-between items-center w-full px-6 py-4">
+<div class="flex items-center gap-4">
+<button class="hover:scale-105 transition-transform duration-300 text-[#7c5455] active:scale-95 duration-200">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+<h1 class="text-xl font-bold tracking-[0.2em] text-[#7c5455]">SMILEY NAIL BAR</h1>
+<div class="flex items-center gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container overflow-hidden hover:scale-105 transition-transform duration-300 active:scale-95 duration-200">
+<img alt="Stylist profile" class="w-full h-full object-cover" data-alt="Close up portrait of a professional nail stylist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiAlbMMMFMpZXP2YH34mtX3wCyUUsJKYplaWNVLIgxcU52CfzEi8WHx3tX3vdVrmmVav7hmIxp-SyBEbngkHY70IhfUaQkclXpR5Sl1F64QHHPbedjy5mb6lsUsrM3YoQMhQ4ymg1MSraC-U7KqKZLdrdJdxk6OY5_5fO_zOYGRosDiADNlL7awcoXjHdEUID0bbdhNt6AV3U23dwSSDzG-6HRYLqYpc5eCK1jvNWgQMBkH_AeemOcMdSK1rSshEW6JbdibIKu3jI"/>
+</div>
+</div>
+</div>
+</header>
+<main class="min-h-screen pb-32">
+<!-- Hero Section / Title -->
+<section class="px-6 pt-16 pb-8 text-center">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary mb-4 block">Our Portfolio</span>
+<h2 class="font-headline text-5xl md:text-6xl font-extrabold text-on-surface leading-tight tracking-tight">Curation of <span class="text-primary italic">Artistry</span></h2>
+<p class="max-w-md mx-auto mt-6 text-on-surface-variant font-body">Explore our signature collections, where precision meets creative expression.</p>
+</section>
+<!-- Category Filter -->
+<nav class="flex overflow-x-auto hide-scrollbar px-6 gap-3 mb-12">
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-primary text-on-primary font-label text-xs tracking-widest transition-all scale-105">ALL WORKS</button>
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-surface-container-low text-on-surface-variant font-label text-xs tracking-widest hover:bg-secondary-container transition-all">MINIMALIST</button>
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-surface-container-low text-on-surface-variant font-label text-xs tracking-widest hover:bg-secondary-container transition-all">AVANT-GARDE</button>
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-surface-container-low text-on-surface-variant font-label text-xs tracking-widest hover:bg-secondary-container transition-all">BRIDAL</button>
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-surface-container-low text-on-surface-variant font-label text-xs tracking-widest hover:bg-secondary-container transition-all">EDITORIAL</button>
+</nav>
+<!-- Gallery Grid (Bento/Instagram Style) -->
+<div class="px-6 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[200px] md:auto-rows-[300px]">
+<!-- Featured Large Item -->
+<div class="col-span-2 row-span-2 relative group overflow-hidden rounded-xl md:rounded-xl shadow-sm">
+<img alt="Detailed nail art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Luxury gold foil and marble nail art design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWeGNeMzOcGKwQd678EXlMEZSmhZvNfLTwkR9XBWDB06nOmisKtcbDNzMhvfMAVXIjr73623F8L3Txn9aFyNVWJyvE3epmTY0IA5v6rwxkOubdO9Szb2mNxy8BBY34xjCuoXpJwH5mIzrY0HhAvRtBSE1sFfpzGZCUP_s9zuA0ASuSiOi45cw0vLqqUZqDAxgSmRW7tCt0TXZgoRHK9a4sIe6No3cloXjZRgA5fu9i9vrz-y2I4IYkdmaylBUHKLvsGuhUrGEJ5XE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+<div>
+<span class="text-primary-fixed font-label text-[10px] tracking-widest uppercase">Luxury Gold</span>
+<p class="text-white font-headline text-lg font-bold">The Gilded Marble</p>
+</div>
+</div>
+</div>
+<!-- Vertical Item -->
+<div class="col-span-1 row-span-2 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Nail polish application" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of minimalist neutral tone manicure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXaHeHQ3odoz4FYYWteOZb8DKOgv3ZEiE_MyiYosv_W2Uv6hX9KB9XLTUsspPOWREQwFPa96tr2BW9X_qfSzOXGM2MCXB3fGIwjn2BWJBgkYb5Um0CbVKNEnDqUQjd4kqvEH50n469TmSHTCfrv0wP4bS6Hs3l8IDrrbRdovCr8nP6SdfPa8Hm4FaYfO49Bi5WgB2etgwyXcIYh6B0KSO79pOyYpIueQA3mJzPS5k49HmQdKvIn6iE8uZbTZPY76DF60Yrg1i59Ys"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+</div>
+<!-- Standard Items -->
+<div class="col-span-1 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Pastel nail art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Soft lavender almond shaped nails with floral accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG0vjbP6VqfjF2j9oQPsUtsu-fIX7Q_7uhPNNMQ-BGeGcs6R1ipr02WQcPLnnqniCdEhf-XW0aO0tpbCUT3sa7IEElNQJ1kaLXBe--XGiVp5e-jKrVWjcopg0hHaUUzK9A1jyBscOPdY-T_PHR1KQ0DJUDTtNfT0dY074TXx4wxk8ii66S9qBiRsC-rMX2x2Z32dkpOhqJSxxBmgBTkb0uFWRod-mS3Kok0id3clu9j0RBBQqoF3m1uU9uxz9ESN9AjHqrDrp5I_0"/>
+</div>
+<div class="col-span-1 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Glossy nails" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="High gloss cherry red manicure on short square nails" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvWXjU9-aTHhWWyfp5WFlZ3cIbHsUntHl_x16ucpNlhRMWbDwpqU_4RT8P3Ap4JPrZXJvzZ8bEC6WfYty7qoeuKOYzvOm0jLDuOf6KVQLEQTKWQy8HZlBnKQZ-7SHWRkrHrUBFK8zeI8bOB4StKW8Rc5ldmU7IrnFO6XLhASRihngV25CjJJz1eOROS-w291Pe5Zp0k_EN1YfMkY4ejqwQjRy-bX7TlJ4gQ7ePE9flWDeuvBTpVZB-H-NX7BIZtY0_P5vAFYglR5s"/>
+</div>
+<!-- Wide Item -->
+<div class="col-span-2 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Nail tools" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Elegant display of metallic nail tools and neutral lacquers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD33utIZDWVb2dlFT2KLni8eYB4E6LAz06s7Mv6XqeSRFSUuqLNEpzAqi6s4z00sCuoTwbQ3Eld-dnWaGPSUvl7UBHNNrD8OSaKrNwjubt3TIWyXGN8IQaYqiCAs9inNTbgfN2kibZJ28BCdX251RmWmmVGfLVoqT2TQsWopdrJyP4a575QnOkapTo3dxIzTopEJhFpjK_62JO4k5W6-ndqZpKntuHpmXEbzRJ-phsqGyiDxjJi6IMEGQZwAKHc-Fe6Sdu-VkrZe5w"/>
+<div class="absolute inset-0 bg-black/10"></div>
+</div>
+<div class="col-span-1 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Nail design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Geometric black and white linework nail art" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-lavElgTkqPJN8MQpvd8SZYFGdftxsyKBcLTY0E9y5Qd2gegVWkfWWeSFbrLk8_6rEL2MMhu_KURQ9aa8_8xIqpm8KD3pvMJUDaemncmtxrIsaFcDUXknXcX7392O_SdRco66wHPlezD4zipQaNcLFu-L5r_W_zvKC6NLeoz71JMauvf58qHZY2cspCTJZUw_hBVswPW6_rNWyIaLs0AHuMCFe9KRmvIovmc9hRi2WSw9FPv83w_ClO5X_6nDnO2h_n3YsYdr3cc"/>
+</div>
+<div class="col-span-1 row-span-2 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Matte nails" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Elegant matte navy blue nails with silver embellishments" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABoGPDClURCNhTo_yPg5lHqGuSExjSqsvhDKjS410GDPdmKeUeeM2xGnE8tHddNWymHkOIPTMPJMvFxMu9VAi81LIjZzVhzaS52PrlnoB924dPnKQoAcqIa60GFOWPEBUZ76p8OC9QJsspAFifNExfriUByv0U7tymHwNZ7KEWak36E-xtGyo7UhrQdYVv0W_E-zLBa1_gN2borXL7SIzr9_EGl6gvX6tzrPO9aZlZam6zYfdU0ECFed1qlHvmrvWWMPcjwQdJLzI"/>
+</div>
+<div class="col-span-1 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="French tips" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern interpretation of french tips with neon accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARWcY7LqbYEVV_KHfgX9GRTiYXc_6KUg-xgyqKQlQyhNWbcALHXvLIIPN1FJ8FdU7vIOL4K99PA_fDDFZhe3sDEtRovQ3Xauu3xPQuhkQi6OyUDbiPJdYD1n61bJARnrNHtpTlkdvZBV0rUqaHM_T8sBBkDhWIZ6OqOKSzhTuJKl_gRXibJGHjGRjLdvQzmhmTJHynqP7ZemEYtKCNUzulUt31Ma5o177iS8ncmtFKad7R6K24ZPXiUSKyBuz8OMwwMBRNz-r9uz8"/>
+</div>
+<div class="col-span-1 row-span-1 relative group overflow-hidden rounded-xl shadow-sm">
+<img alt="Glitter nails" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Subtle champagne glitter ombré on natural nails" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKPVKGUmzNTzIaRcJpTraxg9a_ucFHiObOcsCoaVH1gUh2cy_cOpCtseQoMZJYhbekxpWAD9QdSQmdbprpLJ334vn6GW41EQqh7qvmW-BntUCpCVi1Gvno3PweVtvYsbdxtMQL87cC40sUD1plkXAoOgmSpEAHQb_ktsi5TV5p0ytcVqqYQslcjNkEoy1iI7CORTBQ_cxhkPJo4Ist_4PgpvujuDnK9o5MiQFYsfkjV4WD2-7D_jxyuhsmpUVLY07yFw9kz-GApE0"/>
+</div>
+</div>
+<!-- Call to Action -->
+<section class="mt-20 px-6">
+<div class="bg-surface-container-low rounded-xl p-12 text-center flex flex-col items-center">
+<h3 class="font-headline text-3xl font-bold mb-4">Envision Your Next Look?</h3>
+<p class="text-on-surface-variant max-w-sm mb-8">Our stylists are ready to transform your ideas into wearable art pieces.</p>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full font-label text-sm tracking-widest hover:scale-105 transition-transform duration-300 shadow-lg shadow-primary/20">BOOK AN APPOINTMENT</button>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-transparent pointer-events-none">
+<div class="bg-[#ffffff]/70 backdrop-blur-md mx-6 mb-8 rounded-full h-16 shadow-[0_8px_32px_rgba(27,28,27,0.06)] flex justify-around items-center px-2 pointer-events-auto">
+<a class="flex flex-col items-center justify-center text-[#675c56] hover:bg-[#efe0d8] rounded-full transition-colors p-2" href="home.html">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+
+</a>
+<a class="flex flex-col items-center justify-center text-[#675c56] hover:bg-[#efe0d8] rounded-full transition-colors p-2" href="services.html">
+<span class="material-symbols-outlined" data-icon="content_cut">content_cut</span>
+
+</a>
+<a class="flex flex-col items-center justify-center text-[#675c56] hover:bg-[#efe0d8] rounded-full transition-colors p-2" href="book.html">
+<span class="material-symbols-outlined" data-icon="calendar_month">calendar_month</span>
+
+</a>
+<a class="flex flex-col items-center justify-center bg-[#7c5455] text-white rounded-full w-12 h-12 scale-110 duration-300 ease-out" href="gallery.html">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<!-- <span class="font-['Inter'] text-[8px] uppercase tracking-wider font-semibold">Gallery</span> -->
+</a>
+<a class="flex flex-col items-center justify-center text-[#675c56] hover:bg-[#efe0d8] rounded-full transition-colors p-2" href="contact.html">
+<span class="material-symbols-outlined" data-icon="chat">call</span>
+
+</a>
+</div>
+</nav>
+<!-- Web Navigation (Fallback for desktop sizing) -->
+<div class="hidden md:flex fixed bottom-8 left-1/2 -translate-x-1/2 z-50">
+<div class="bg-[#ffffff]/80 backdrop-blur-xl rounded-full px-8 py-4 shadow-xl flex gap-8">
+<a class="text-secondary hover:text-primary font-label text-xs tracking-widest uppercase py-2" href="#">Home</a>
+<a class="text-secondary hover:text-primary font-label text-xs tracking-widest uppercase py-2" href="#">Services</a>
+<a class="text-secondary hover:text-primary font-label text-xs tracking-widest uppercase py-2 border-b-2 border-primary" href="#">Gallery</a>
+<a class="text-secondary hover:text-primary font-label text-xs tracking-widest uppercase py-2" href="#">Contact</a>
+<button class="bg-primary text-on-primary px-6 rounded-full font-label text-xs tracking-widest uppercase py-2 hover:scale-105 transition-all">Book Now</button>
+</div>
+</div>
+</body></html>
